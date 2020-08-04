@@ -1,0 +1,19 @@
+.cardBody {
+    background: #f5f5f5;
+  }
+  
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .nav-pills .nav-link {
+    color: #555;
+  }
+  
+  .nav-pills .nav-link.active {
+    color: #fff;
+  }
+
+  #opacity {
+      background-color: rgba(255, 255, 255, 0.404);
+  }

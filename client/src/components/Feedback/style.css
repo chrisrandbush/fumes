@@ -1,0 +1,96 @@
+#bgCard {
+	background-color: rgba(255, 255, 255, 0.198);
+	color: #fff;
+	text-align: center;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+
+.getService {
+	padding-bottom: 15%;
+
+}
+
+#getCard {
+	background-color: rgba(255, 255, 255, 0.198);
+	height: 300px;
+	padding-left: 3%;
+}
+
+#helpCard {
+	background-color: rgba(255, 255, 255, 0.198);
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: #fff;
+}
+
+
+.getService button {
+	width: 150px;
+}
+
+#getCard h4 {
+	text-align: center;
+	color: #ffffff;
+
+}
+
+#getCard h2 {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+
+#bodyCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#bodyCard a {
+	font-size: 1.5rem;
+	padding: 1rem 3rem;
+	color: #f4f4f4;
+	text-transform: uppercase;
+}
+
+.btnG {
+	text-decoration: none;
+	border: 1px solid #FFC312;
+	position: relative;
+	overflow: hidden;
+}
+
+.btnG:hover {
+	box-shadow: 1px 1px 25px 10px #ffc41263;
+}
+
+.btnG:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(120deg,
+			transparent,
+			#ffc41263,
+			transparent);
+	transition: all 650ms;
+}
+
+.btnG:hover:before {
+	left: 100%;
+}
+
+@media (max-width: 414px) {
+	.getService {
+		padding-top: 15%;
+	}
+
+}

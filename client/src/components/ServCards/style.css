@@ -1,0 +1,93 @@
+/* SERVICES PAGES */
+
+.serviceMain{
+	padding-bottom: 5%;
+	cursor: pointer;
+}
+
+#cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+	max-width: 1500px;
+
+	justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #cardGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    max-width: 750px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 425px) {
+    #cardGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    max-width: 375px;
+    }
+    
+    
+}
+
+
+
+#servCard {
+	margin: auto;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	height: 300px;
+	background-color: #ffffffc2;
+	justify-content: center;
+	
+}
+
+
+
+
+#servCard:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-box:hover {
+	background: linear-gradient(to right, #1fa2ff17 0%, #12d8fa2b 51%, #1fa2ff36 100%);
+}
+
+
+.card-box h2 {
+	margin: 0;
+	padding-top: 5%;
+	color: #2196F3;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+.card-text p {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.card-link {
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #FF5722;
+	font-size: 25px;
+	
+}
+
+.card-body {
+	height: 100%;
+}
